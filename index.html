@@ -6,16 +6,16 @@
     <!--CSS-->
     <link rel="stylesheet" href="./CSS/shared.css">
     <link rel="stylesheet" href="./CSS/animations.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/photo_style.css">
+    <link rel="stylesheet" type="text/css" href="./css/photo_style.css">
     <!--JavaScript-->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="./JS/JavaScript.js"></script>
+    <script src="JS/JavaScript.js"></script>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 
-<body style="background: url('../Images/IMG_1269.JPG') center center no-repeat; background-size: cover; background-attachment: fixed;">
+<body>
     <script>
         document.body.classList.add('fade-out');
       </script>
@@ -128,23 +128,7 @@
 
             
 
-            <!-- Slideshow 
-            <div id="slideshow">
-                <div>
-                    <img src="./Images/Satellite (1).png" alt="Slide 1">
-                </div>
-                <div>
-                    <img src="./Images/Satellite (2).png" alt="Slide 2">
-                </div>
-                <div>
-                    <img src="./Images/Satellite (3).png" alt="Slide 3">
-                </div>
-                <div>
-                    Rooms on the space station
-                </div>
-            </div>
-            </div> -->
-            <!-- End Slideshow -->
+
 
             <!--RVSP-->
             <section id="contact">
@@ -173,23 +157,6 @@
     document.body.classList.remove('fade-out');
   });</script>
 
-<script>
-    $(document).ready(function () {
-        // Hide all slides except the first one
-        $('#slideshow > div:gt(0)').hide();
-
-        // Set interval to switch slides every 3 seconds
-        setInterval(function () {
-            $('#slideshow > div:first')
-                .fadeOut(1000)
-                .next()
-                .fadeIn(1000)
-                .end()
-                .appendTo('#slideshow');
-        }, 3000);
-    });
-
-</script>
 
 </body>
 </html>
