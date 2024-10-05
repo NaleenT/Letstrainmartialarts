@@ -4,7 +4,7 @@ html {
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -ms-text-size-adjust: 100%;
-    background-color: black;
+    
     
 }
 
@@ -14,7 +14,7 @@ body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #000000;
     opacity: 1;
     transition: 1s opacity;
     background: url('../Images/IMG_1269.JPG') center center no-repeat;
@@ -143,7 +143,7 @@ section {
 } 
 .menu-container { 
     max-height: 340px; 
-    margin: 0% auto; 
+    margin: 0%; 
     content: " "; /* top: 0; left: 0; */ /* position: absoltue; */ /* to the top edge of the screen */
     width: 100%; 
     position: fixed; 
@@ -171,7 +171,7 @@ section {
     padding: 1px;
     border-radius: 8px;
     color: white;
-    max-width: 100%; /* Ensure it doesn’t overflow horizontally */
+    max-width: 90%; /* Ensure it doesn’t overflow horizontally */
     margin: auto;
     box-sizing: border-box; /* Ensure padding is included in width calculations */
     z-index: 1; /* Keep it above other content if needed */
@@ -282,97 +282,9 @@ ul {
 } 
 
 
-.reservation p { 
-    color: #13161B; 
-    width: 50%; 
-    margin: 0 auto; 
-} 
-
-.reservation form { 
-    font-size: 15px; 
-    outline: none; 
-    font-weight: 600; 
-    color: #8D8E8F; 
-    padding: 12px 12px; 
-    width: 70%; 
-    border: 1px solid #808080; 
-    margin: 2% auto; 
-    border-radius: 7px; 
-    background: rgb(227, 222, 222); 
-    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3); 
-    font-family: 'Raleway', sans-serif; 
-} 
-
-.reservation input[type="text"] { 
-    font-size: 15px; 
-    outline: none; 
-    font-weight: 600; 
-    color: #8D8E8F; 
-    padding: 2% 1% 2% 7%; 
-    width: 80%; 
-    border-top: 1px solid #090B0D; 
-    border-right: 2px solid #424549; 
-    border-bottom: 2px solid #424549; 
-    border-left: 1px solid #090B0D; 
-    margin: 10px 1em; 
-    border-radius: 7px; 
-    background: #13161B; 
-    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15); 
-    font-family: 'Raleway', sans-serif; 
-} 
-
-.reservation input[type="text"]:hover {
-     box-shadow: 0 0 18px rgba(100, 65, 0, .8);
-} 
 
 
-.form-spacer { 
-    padding: 30px 39px; 
-} 
 
-.terms { 
-    margin: 30px 1px 0 0; 
-    margin-top: 13%; 
-    padding-left: 52px; 
-    font-size: 14px; 
-    line-height: 5px; 
-    color: #000; 
-    cursor: pointer; 
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 600; 
-    position: relative; 
-    display: inline; 
-    float: right; 
-} 
-
-.terms:hover{ 
-    color: orange; 
-    text-decoration: underline; 
-} 
-
-.submit input[type="submit"]{
-    color: rgb(255, 255, 255);
-    cursor: pointer; 
-    border: none; 
-    font-weight: 900; 
-    outline: none; 
-    text-align: center; 
-    font-family: 'Raleway', sans-serif; 
-    margin: 0px 3%; 
-    padding: 7px 0px; 
-    width: 25%; 
-    font-size: 18px; 
-    transition: border-color 0.3s color 0.3s background-color 0.3s; 
-    border-radius: 7px; 
-    background-color: #797a7b; 
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3); 
-} 
-
-.submit input[type="submit"]:hover { 
-    color: #000; 
-    background-color: #8D8E8F; 
-    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5); 
-} 
 
 
 
@@ -395,73 +307,4 @@ ul {
 
 }
 
-#slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 240px; 
-    height: 240px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-  }
-  
-  #slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
-  }
 
-  /* Sticky Contact Button */
-#stickyContactBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Contact Form Popup */
-.popup-form {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    top: 50%;
-    left: 50%;
-    display: none;
-    padding: 20px;
-    background: transparent;
-    z-index: 1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a better visual effect */
-}
-
-.popup-close {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.popup {
-    color: rgb(255, 255, 255);
-    cursor: pointer; 
-    border: none; 
-    font-weight: 900; 
-    outline: none; 
-    text-align: center; 
-    font-family: 'Raleway', sans-serif; 
-    margin: 0px 3%; 
-    padding: 7px 0px; 
-    width: 25%; 
-    font-size: 18px; 
-    transition: border-color 0.3s color 0.3s background-color 0.3s; 
-    border-radius: 7px; 
-    background-color: #797a7b; 
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3); 
-}
