@@ -17,6 +17,10 @@ body {
     background-color: #fff;
     opacity: 1;
     transition: 1s opacity;
+    background: url('../Images/IMG_1269.JPG') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensures the background covers the viewport */
 }
 
 body.fade-out {
@@ -384,9 +388,11 @@ ul {
 
 
   
-  html, body, #home {
+  html, body{
     height: 100%;
     margin: 0;
+    padding: 0;
+
 }
 
 #slideshow { 
