@@ -148,7 +148,6 @@ section {
 } 
 
 #home {
-    background: url('./Images/IMG_1269.JPG') center center no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
